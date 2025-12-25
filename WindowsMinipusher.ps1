@@ -140,7 +140,7 @@ function Show-Menu {
     $selected = 0
     while ($true) {
         Clear-Host
-        Write-Host "=== MiniPusher Menu ===`n" -ForegroundColor Yellow
+        Write-Host "=== Minipusher ===`n" -ForegroundColor Yellow
         for ($i=0; $i -lt $Options.Length; $i++) {
             if ($i -eq $selected) {
                 Write-Host " > $($Options[$i])" -ForegroundColor Green
